@@ -1,3 +1,3 @@
-# SparkUI
+# UIWizard
 
 > Work in progress...
