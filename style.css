@@ -1,0 +1,24 @@
+:root {
+    --primary: #475569;
+    --secondary: #6ec5ea;
+    --accent: #ffdc5d;
+    --light: #f8fafc;
+    --text-light: #cbd5e1;
+    --text-dark: #4289c1;
+    --danger: #d84646;
+    --danger--dark: #eb3737;
+    --success: #4e9a51;
+    --success--dark: #3b7d2e;
+    --warning: #d4a13a;
+    --warning--dark: #e99d04;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: var(--primary);
+}
