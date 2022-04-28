@@ -22,7 +22,7 @@
 .main--container {
     margin-top: 10rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     justify-content: center;
     align-items: center;
     padding: 1rem;
@@ -34,9 +34,7 @@
     background-color: var(--primary);
     color: var(--text-light);
     text-align: center;
-    padding: 2rem;
-    overflow: auto;
-    height: 250px;
+    padding: 1rem;
     border-radius: 10px;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
@@ -56,7 +54,6 @@
     gap: 2rem;
     justify-content: center;
     float: left;
-    margin: 2rem;
     padding: 0 1rem;
     font-size: 3rem;
 }
@@ -92,7 +89,7 @@
         color: var(--primary);
     }
 
-    .section--install:hover{
+    .section--install:hover {
         background-color: var(--accent);
         color: var(--primary);
     }
