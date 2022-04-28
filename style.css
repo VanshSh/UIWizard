@@ -19,6 +19,7 @@
     --warning--dark: #e99d04;
 }
 
+/* Main */
 .main--container {
     margin-top: 10rem;
     display: grid;
@@ -58,6 +59,8 @@
     font-size: 3rem;
 }
 
+/* Buttons */
+
 .section--install {
     background-color: var(--secondary);
     color: var(--dark);
@@ -83,14 +86,15 @@
     color: var(--text-light);
 }
 
+/* Media Query */
 @media (hover: none) {
-    .section--link:hover {
+    .section--documentation:hover {
         background-color: var(--accent);
         color: var(--primary);
     }
 
     .section--install:hover {
-        background-color: var(--accent);
-        color: var(--primary);
+        background-color: var(--secondary);
+        color: var(--dark);
     }
 }
