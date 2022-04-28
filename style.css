@@ -66,8 +66,8 @@ nav a {
 
 @media (hover: none) {
     .nav--link-btn:hover {
-        background-color: inherit;
-        color: inherit;
+        background-color: var(--accent);
+        color: var(--primary);
     }
 }
 
