@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;600&family=Merriweather:wght@300;400;700&display=swap');
 
+
+
 :root {
     --primary: #091429;
     --secondary: #6ec5ea;
@@ -42,10 +44,9 @@ nav {
 nav a {
     color: var(--primary);
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
     padding: 0.5rem 1rem;
-    transition: all 0.2s ease-in-out;
 }
 
 .nav--link-btn{
@@ -60,6 +61,13 @@ nav a {
     background-color:var(--primary);
     color:var(--accent);
 }
+
+
+.h1-text{
+    font-size:2rem;
+}
+
+
 
 main {
     margin-top: 5rem;
