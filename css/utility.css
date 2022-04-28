@@ -37,9 +37,9 @@ nav a {
 }
 
 .nav--link-btn {
-    background-color: var(--accent);
-    color: var(--primary);
-    margin: 0.2rem;
+    background-color: var(--primary);
+    color: var(--light);
+    margin: 0.5rem;
     padding: 0.5rem 1.5rem;
     border-radius: 15px;
 }

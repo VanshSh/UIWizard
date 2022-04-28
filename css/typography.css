@@ -18,3 +18,24 @@
 .h1-span {
     font-size: 4rem;
 }
+
+/* Headings */
+
+.main-h1 {
+    font-size: 4rem;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 600;
+}
+
+/* Paragraphs */
+
+.main-p {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+/* Text colors */
+
+.text-dark {
+    color: var(--text-dark);
+}

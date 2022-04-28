@@ -25,7 +25,7 @@
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
-    border: 1px solid var(--primary);
+    padding: 1rem;
 }
 
 .main--container-left {
@@ -36,26 +36,64 @@
     text-align: center;
     padding: 2rem;
     overflow: auto;
-
+    height: 250px;
+    border-radius: 10px;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
 .main--container-right {
     display: flex;
-    /* gap: 2rem; */
+    gap: 2rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 0 1rem;
 }
 
-.main-h1 {
-    font-size: 4rem;
-    font-family: 'IBM Plex Serif', serif;
-    font-weight: 600;
-    color: var(--text-dark);
+.section--link {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    float: left;
+    margin: 2rem;
+    padding: 0 1rem;
+    font-size: 3rem;
 }
 
-.main-p {
-    font-size: 2rem;
+.section--install {
+    background-color: var(--secondary);
+    color: var(--dark);
+    padding: 1rem 2rem;
+    border-radius: 5px;
+}
+
+.section--install:hover {
+    background-color: var(--primary);
+    color: var(--text-light);
+}
+
+.section--documentation {
+    background-color: var(--accent);
+    color: var(--primary);
+    text-align: center;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+}
+
+.section--documentation:hover {
+    background-color: var(--primary);
+    color: var(--text-light);
+}
+
+@media (hover: none) {
+    .section--link:hover {
+        background-color: var(--accent);
+        color: var(--primary);
+    }
+
+    .section--install:hover{
+        background-color: var(--accent);
+        color: var(--primary);
+    }
 }
