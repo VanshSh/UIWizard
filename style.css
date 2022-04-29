@@ -30,7 +30,6 @@ body {
 
 /* Main */
 .main--container {
-    margin-top: 10rem;
     display: grid;
     grid-template-rows: 1fr 1fr;
     justify-content: center;
