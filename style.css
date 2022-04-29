@@ -18,6 +18,15 @@
     --warning: #d4a13a;
     --warning--dark: #e99d04;
 }
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
 
 /* Main */
 .main--container {
@@ -61,7 +70,6 @@
 }
 
 /* Buttons */
-
 .section--install {
     background-color: var(--secondary);
     color: var(--dark);
@@ -87,22 +95,12 @@
     color: var(--text-light);
 }
 
-/* Installation */
-.installation {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-}
 
 /* Footer */
 footer {
     background-color: var(--primary);
     padding: 2rem;
+    margin-top: auto;
 }
 
 .social--links {
@@ -110,14 +108,6 @@ footer {
     gap: 5rem;
     justify-content: center;
     font-size: 3rem;
-}
-
-.social--links a {
-    color: var(--accent);
-}
-
-.social--links a:hover {
-    color: var(--warning--dark);
 }
 
 /* Media Query */
