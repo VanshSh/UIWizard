@@ -49,6 +49,16 @@ nav a {
     color: var(--accent);
 }
 
+
+.copyright{
+    background-color: var(--primary);
+    color: var(--light);
+    padding: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
 /* Media Query */
 @media (hover: none) {
     .nav--link-btn:hover {

@@ -57,6 +57,7 @@
     float: left;
     padding: 0 1rem;
     font-size: 3rem;
+    margin: 1rem;
 }
 
 /* Buttons */
@@ -86,6 +87,39 @@
     color: var(--text-light);
 }
 
+/* Installation */
+.installation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary);
+    padding: 2rem;
+}
+
+.social--links {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.social--links a {
+    color: var(--accent);
+}
+
+.social--links a:hover {
+    color: var(--warning--dark);
+}
+
 /* Media Query */
 @media (hover: none) {
     .section--documentation:hover {
@@ -96,5 +130,9 @@
     .section--install:hover {
         background-color: var(--secondary);
         color: var(--dark);
+    }
+
+    .section--link a:hover {
+        color: var(--accent);
     }
 }
