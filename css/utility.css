@@ -109,8 +109,8 @@ footer {
 /* Media Query */
 @media (hover: none) {
     .nav--link-btn:hover {
-        background-color: var(--accent);
-        color: var(--primary);
+        background-color: var(--primary);
+        color: var(--light);
     }
 
     .social--links a:hover {
