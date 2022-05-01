@@ -7,9 +7,9 @@
 
 /* Alert container */
 .alert {
-    width: 55rem;
     padding: 1rem 2rem;
     border-radius: 5px;
+    width: max-content;
     margin: 2rem 0;
     font-weight: bolder;
 }
@@ -24,15 +24,15 @@
 /* Alert */
 .alert-alert {
     background-color: var(--accent);
-    color: #8e7b36;
-    border: 1px solid #8e7b36;
+    color: #786a37;
+    border: 1px solid #786a37;
 }
 
 /* Error */
 .alert-error {
     background-color: var(--danger);
-    color: #643434;
-    border: 1px solid #643434;
+    color: rgb(239, 173, 173);
+    border: 1px solid rgb(239, 173, 173);
 }
 
 /* Success */

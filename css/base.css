@@ -6,11 +6,11 @@
     --text-light: #cbd5e1;
     --text-dark: #4289c1;
     --danger: #d84646;
-    --danger--dark: #eb3737;
+    --danger-dark: #eb3737;
     --success: #4e9a51;
-    --success--dark: #3b7d2e;
+    --success-dark: #3b7d2e;
     --warning: #d4a13a;
-    --warning--dark: #e99d04;
+    --warning-dark: #e99d04;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;600&family=Merriweather:wght@300;400;700&display=swap');
