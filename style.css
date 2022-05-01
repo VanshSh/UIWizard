@@ -3,6 +3,10 @@
 @import url(./css/typography.css);
 
 /* Main */
+
+main{
+   margin-top: 10rem; 
+}
 .main--container {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -32,6 +36,8 @@
     padding: 0 1rem;
 }
 
+/* Buttons */
+
 .section--link {
     display: flex;
     gap: 2rem;
@@ -39,10 +45,9 @@
     float: left;
     padding: 0 1rem;
     font-size: 3rem;
-    margin: 1rem;
+    margin-bottom: 2rem;
 }
 
-/* Buttons */
 .section--install {
     background-color: var(--secondary);
     color: var(--primary);

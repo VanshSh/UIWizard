@@ -3,4 +3,7 @@
 @import url(../css/alert.css);
 @import url(../css/utility.css);
 
-
+main {
+    margin-top: 13rem;
+    padding: 1rem 3rem;
+}
