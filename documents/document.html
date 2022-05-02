@@ -24,6 +24,7 @@
             type="image/x-icon"
         />
         <link rel="stylesheet" href="./document.css" />
+        <script src="./document.js" defer></script>
         <title>UIWizard | Documentation</title>
     </head>
     <body>
@@ -45,7 +46,16 @@
             >
         </nav>
 
-        <main>
+        <input
+            class="input"
+            type="text"
+            name=""
+            id="myInput"
+            placeholder="Search.."
+            onkeyup="myFunction()"
+        />
+
+        <main id="myMain">
             <!------------------ Typography ----------------->
             <section>
                 <h1 class="h1 text-center text-dark">Typography</h1>
@@ -87,8 +97,8 @@
                 <div class="snippet">
                     <script src="https://gist.github.com/VanshSh/5b138a10537b4b0f54e3807a8cc13c40.js"></script>
                 </div>
+                <hr class="divider" />
             </section>
-            <hr class="divider" />
 
             <!------------------ Alert ----------------->
             <section>
@@ -124,8 +134,8 @@
                 <div class="snippet">
                     <script src="https://gist.github.com/VanshSh/12805b579ac517dd73458942ab207ad4.js"></script>
                 </div>
+                <hr class="divider" />
             </section>
-            <hr class="divider" />
 
             <!------------------ Avatar ----------------->
 
@@ -170,8 +180,8 @@
                 <div class="snippet">
                     <script src="https://gist.github.com/VanshSh/699166f8e933684d47b1c7865e185eac.js"></script>
                 </div>
+                <hr class="divider" />
             </section>
-            <hr class="divider">
             <!-- <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro
                 ea corruam, necessitatibus vel alias consequuntur accusamus

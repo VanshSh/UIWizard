@@ -4,6 +4,16 @@
 @import url(../css/utility.css);
 
 main {
-    margin-top: 13rem;
     padding: 1rem 3rem;
+}
+
+.input {
+    width: 50%;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    padding: 1.5rem;
+    background-color: #dedfdf;
+    margin: 15rem auto 2rem auto;
+    text-align: center;
+    font-size: 3rem;
 }
