@@ -1,4 +1,4 @@
-@import url(./base.css);
+@import url(../component.css);
 
 /* Navigation */
 
@@ -56,7 +56,7 @@ footer {
 }
 
 .social--links a:hover {
-    color: var(--warning--dark);
+    color: var(--warning-dark);
 }
 
 .copyright {

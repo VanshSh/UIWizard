@@ -45,7 +45,7 @@
     font-size: 2.5rem;
     font-weight: 500;
     margin: 1.5rem 0;
-}
+} 
 
 .p3 {
     font-size: 2rem;
@@ -63,15 +63,15 @@
 }
 
 .text-danger {
-    color: var(--danger--dark);
+    color: var(--danger-dark);
 }
 
 .text-success {
-    color: var(--success--dark);
+    color: var(--success-dark);
 }
 
 .text-warning {
-    color: var(--warning--dark);
+    color: var(--warning-dark);
 }
 
 .text-dark {
