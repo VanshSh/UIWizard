@@ -6,8 +6,8 @@ nav {
     background-color: var(--secondary);
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-    padding: 2.5rem;
+    align-items: center;
+    padding: 4rem 0 0 0;
     overflow: hidden;
     position: fixed;
     z-index: 1;
@@ -21,16 +21,17 @@ nav a {
     text-decoration: none;
     font-size: 3rem;
     font-weight: 600;
-    padding: 0.5rem 1rem;
+    margin: 0 2rem 0 0;
+    padding: 0.5rem 2rem;
 }
 
 .nav--link-btn {
     background-color: var(--primary);
     color: var(--light);
     margin: 0.5rem;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 2rem;
+    margin: 0 2rem 0 0;
     border-radius: 5px;
-
 }
 
 .nav--link-btn:hover {
