@@ -1,6 +1,6 @@
 @import url(../component.css);
 
-/* Avatar */
+/* Images Avatar */
 .avatar {
     height: auto;
     max-width: 100%;
@@ -24,4 +24,40 @@
 .avatar-sm {
     width: 5rem;
     height: auto;
+}
+
+/* Initials Avatar */
+
+/* Initial Avatar Large */
+.avatar-span-lg {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: var(--primary);
+    color: var(--light);
+    font-size: 6rem;
+    padding: 2rem;
+    text-align: center;
+    margin: 1rem;
+}
+/* Initial Avatar Medium */
+.avatar-span-md {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: var(--primary);
+    color: var(--light);
+    font-size: 3rem;
+    padding: 2rem;
+    text-align: center;
+    margin: 1rem;
+}
+/* Initial Avatar Small */
+.avatar-span-sm {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: var(--primary);
+    color: var(--light);
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
+    margin: 1rem;
 }
