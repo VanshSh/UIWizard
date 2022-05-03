@@ -18,8 +18,6 @@
 html {
     height: 100%;
     font-size: 63%;
-
-
 }
 
 body {
@@ -35,7 +33,6 @@ body {
     box-sizing: border-box;
     text-decoration: none;
 }
-
 
 @media only screen and (max-width: 830px) {
     html {

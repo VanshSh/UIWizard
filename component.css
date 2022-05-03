@@ -1,6 +1,10 @@
+/* Root CSS */
 @import url(./css/base.css);
 @import url(./css/utility.css);
+
+/* Component CSS */
 @import url(./css/typography.css);
 @import url(./css/alert.css);
 @import url(./css/avatar.css);
+@import url(./css/badge.css);
 

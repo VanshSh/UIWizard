@@ -8,6 +8,7 @@ function myFunction() {
         txtValue = section[i].textContent || section[i].innerText
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
             section[i].style.display = ''
+            window.scrollTo(0, 0)
         } else {
             section[i].style.display = 'none'
         }
