@@ -7,7 +7,14 @@
     padding: 1rem 2rem;
     margin: 1rem;
     font-weight: 500;
+    letter-spacing: 0.2rem;
     border-radius: 8px;
+}
+
+.btn .material-icons {
+    vertical-align: text-bottom;
+    font-size: 4rem;
+    color: white;
 }
 
 .btn:hover {
@@ -80,9 +87,40 @@
     color: var(--primary);
 }
 
+/* Button Primary Icon */
+.btn-primary-icon {
+    background-color: var(--primary);
+    color: var(--text-light);
+}
 
+/* Button Delete Icon */
+.btn-delete-icon {
+    background-color: rgb(246, 47, 47);
+    color: white;
+}
 
+/* Button send Icon */
+.btn-send-icon {
+    background-color: var(--success);
+    color: white;
+}
 
+/* Button  Float*/
+.btn-float {
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 2rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    /* bottom: 1rem;
+    left: 1rem;
+    z-index: 9999; 
+    position: fixed; */
+}
+
+.btn-float .material-icons {
+    font-size: 4.5rem;
+    padding: 2rem;
+}
 
 /* Hover for Mobile */
 @media (hover: none) {
