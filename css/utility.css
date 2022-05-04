@@ -112,6 +112,14 @@ footer {
     align-items: center;
 }
 
+.example-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 /* Scrollbar */
 
 /* width */

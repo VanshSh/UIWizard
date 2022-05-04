@@ -1,6 +1,7 @@
 @import url(./css/base.css);
 @import url(./css/utility.css);
 @import url(./css/typography.css);
+@import url(./css/button.css);
 
 /* Main */
 
@@ -46,43 +47,6 @@ main{
     padding: 0 1rem;
     font-size: 3rem;
     margin-bottom: 2rem;
-}
-
-.section--install {
-    background-color: var(--secondary);
-    color: var(--primary);
-    padding: 1rem 2rem;
-    border-radius: 5px;
-}
-
-.section--install:hover {
-    background-color: var(--primary);
-    color: var(--text-light);
-}
-
-.section--documentation {
-    background-color: var(--accent);
-    color: var(--primary);
-    padding: 1rem 2rem;
-    border-radius: 5px;
-}
-
-.section--documentation:hover {
-    background-color: var(--primary);
-    color: var(--text-light);
-}
-
-/* Media Query */
-@media (hover: none) {
-    .section--documentation:hover {
-        background-color: var(--accent);
-        color: var(--primary);
-    }
-
-    .section--install:hover {
-        background-color: var(--secondary);
-        color: var(--primary);
-    }
 }
 
 

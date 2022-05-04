@@ -39,12 +39,14 @@
     box-shadow: 0 0.5rem 1rem rgba(22, 22, 22, 0.2);
 }
 
-.badge-offline{
+.badge-offline {
     border: 4px solid var(--danger);
     box-shadow: 0 0.5rem 1rem rgba(249, 117, 117, 0.2);
+    filter: grayscale(0.7);
 }
 
-.badge-idle{
+.badge-idle {
     border: 4px solid var(--warning);
     box-shadow: 0 0.5rem 1rem rgba(243, 223, 135, 0.2);
+    filter: sepia(0.7);
 }
