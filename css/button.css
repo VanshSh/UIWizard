@@ -46,13 +46,67 @@
     filter: brightness(1);
 }
 
+/* Button Primary Outlined */
+
+.btn-primary-outlined {
+    border: 2px solid var(--primary);
+    background-color: transparent;
+    color: black;
+}
+.btn-primary-outlined:hover {
+    background-color: var(--primary);
+    color: var(--text-light);
+}
+
+/* Button Secondary Outlined */
+.btn-secondary-outlined {
+    border: 2px solid var(--text-dark);
+    color: var(--text-dark);
+}
+
+.btn-secondary-outlined:hover {
+    background-color: var(--text-dark);
+    color: var(--primary);
+}
+
+/* Button Accent Outlined */
+.btn-accent-outlined {
+    border: 2px solid var(--accent);
+    color: var(--accent);
+}
+
+.btn-accent-outlined:hover {
+    background-color: var(--accent);
+    color: var(--primary);
+}
+
+
 
 
 
 /* Hover for Mobile */
-@media (hover: none){
+@media (hover: none) {
     .btn:hover {
         box-shadow: none;
         filter: brightness(1);
+    }
+
+    .btn-disabled:hover {
+        cursor: not-allowed;
+        background-color: rgb(211, 201, 201);
+        box-shadow: none;
+    }
+    .btn-accent-outlined:hover {
+        border: 2px solid var(--accent);
+        color: var(--accent);
+    }
+
+    .btn-primary-outlined:hover {
+        background-color: var(--primary);
+        color: var(--text-light);
+    }
+    .btn-secondary-outlined:hover {
+        border: 2px solid var(--text-dark);
+        color: var(--text-dark);
     }
 }
