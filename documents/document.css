@@ -8,8 +8,8 @@ main {
     margin-top: 16rem;
 }
 
-/* Search bar */
 
+/* Search bar */
 .input {
     width: 30%;
     border-radius: 5px;
@@ -23,12 +23,13 @@ main {
         rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
-/* Floating Button */
 
+
+/* Floating Button */
 .to-top {
     position: fixed;
     bottom: 1rem;
-    right: 1rem;
+    right: 2rem;
     z-index: 1;
     color: var(--primary);
 }

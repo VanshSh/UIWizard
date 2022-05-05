@@ -95,14 +95,15 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
 }
 
 .example-button {
-  display: flex;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
 }
 
 .example-navigation {
