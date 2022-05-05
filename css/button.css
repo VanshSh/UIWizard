@@ -5,7 +5,7 @@
     font-size: 2.5rem;
     text-transform: uppercase;
     padding: 1rem 2rem;
-    margin: 1rem;
+    margin: 2rem;
     font-weight: 500;
     letter-spacing: 0.2rem;
     border-radius: 8px;
@@ -91,6 +91,7 @@
 .btn-primary-icon {
     background-color: var(--primary);
     color: var(--text-light);
+    padding: 1rem;
 }
 
 /* Button Delete Icon */
@@ -107,14 +108,16 @@
 
 /* Button  Float*/
 .btn-float {
-    cursor: pointer;
+    width: fit-content;
     border-radius: 50%;
+    cursor: pointer;
     margin: 2rem;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    /* bottom: 1rem;
-    left: 1rem;
-    z-index: 9999; 
-    position: fixed; */
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+        rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.btn-float:hover {
+    filter: brightness(1.2);
 }
 
 .btn-float .material-icons {

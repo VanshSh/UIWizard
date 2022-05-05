@@ -2,7 +2,7 @@
 
 /* Navigation */
 
- nav {
+nav {
     background-color: var(--secondary);
     display: flex;
     justify-content: space-between;
@@ -24,8 +24,6 @@ nav a {
     margin: 0 2rem 0 0;
     padding: 0.5rem 2rem;
 }
-
-
 
 /* Footer */
 footer {
@@ -101,11 +99,10 @@ footer {
 }
 
 .example-button {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+  display: flex;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    
 }
 
 .example-navigation {
