@@ -48,3 +48,18 @@ body {
         /*6px*/
     }
 }
+
+.button {
+    background-color: var(--accent);
+    color: var(--primary);
+    padding: 0.5rem 1rem;
+}
+
+/* To show hover effect only on devices which support hover effects */
+
+@media (hover: hover) {
+    .button:hover {
+        background-color: var(--danger-dark);
+        color: var(--accent);
+    }
+}

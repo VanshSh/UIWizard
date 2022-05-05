@@ -43,10 +43,6 @@ footer {
     color: var(--accent);
 }
 
-.social--links a:hover {
-    color: var(--warning-dark);
-}
-
 .copyright {
     background-color: var(--primary);
     color: var(--light);
@@ -131,19 +127,14 @@ footer {
     border-radius: 10px;
 }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: var(--accent);
-}
-
 /* Media Query */
-@media (hover: none) {
-    .nav--link-btn:hover {
-        background-color: var(--primary);
-        color: var(--light);
+@media (hover: hover) {
+    .social--links a:hover {
+        color: var(--warning-dark);
     }
 
-    .social--links a:hover {
-        color: var(--accent);
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: var(--accent);
     }
 }

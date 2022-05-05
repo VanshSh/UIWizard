@@ -17,12 +17,6 @@
     color: white;
 }
 
-.btn:hover {
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
-        rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    filter: brightness(1.1);
-}
-
 /* Button Primary */
 .btn-primary {
     background-color: var(--primary);
@@ -47,22 +41,12 @@
     background-color: rgb(211, 201, 201);
 }
 
-.btn-disabled:hover {
-    background-color: rgb(211, 201, 210);
-    box-shadow: none;
-    filter: brightness(1);
-}
-
 /* Button Primary Outlined */
 
 .btn-primary-outlined {
     border: 2px solid var(--primary);
     background-color: transparent;
     color: black;
-}
-.btn-primary-outlined:hover {
-    background-color: var(--primary);
-    color: var(--text-light);
 }
 
 /* Button Secondary Outlined */
@@ -71,20 +55,11 @@
     color: var(--text-dark);
 }
 
-.btn-secondary-outlined:hover {
-    background-color: var(--text-dark);
-    color: var(--primary);
-}
 
 /* Button Accent Outlined */
 .btn-accent-outlined {
     border: 2px solid var(--accent);
     color: var(--accent);
-}
-
-.btn-accent-outlined:hover {
-    background-color: var(--accent);
-    color: var(--primary);
 }
 
 /* Button Primary Icon */
@@ -106,6 +81,7 @@
     color: white;
 }
 
+
 /* Button  Float*/
 .btn-float {
     width: fit-content;
@@ -116,42 +92,43 @@
         rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 
-.btn-float:hover {
-    filter: brightness(1.2);
-}
-
 .btn-float .material-icons {
     font-size: 4.5rem;
     padding: 2rem;
 }
 
-/* Hover for Mobile */
-@media (hover: none) {
+
+/* Hove effects */
+@media (hover: hover) {
     .btn:hover {
-        box-shadow: none;
-        filter: brightness(1);
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+            rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        filter: brightness(1.1);
+    }
+    .btn-accent-outlined:hover {
+        background-color: var(--accent);
+        color: var(--primary);
     }
 
     .btn-disabled:hover {
-        cursor: not-allowed;
-        background-color: rgb(211, 201, 201);
+        background-color: rgb(211, 201, 210);
         box-shadow: none;
-    }
-    .btn-accent-outlined:hover {
-        border: 2px solid var(--accent);
-        color: var(--accent);
+        filter: brightness(1);
     }
 
     .btn-primary-outlined:hover {
         background-color: var(--primary);
         color: var(--text-light);
     }
-    .btn-secondary-outlined:hover {
-        border: 2px solid var(--text-dark);
-        color: var(--text-dark);
-    }
 
     .btn-float:hover {
-        filter: brightness(1);
+        filter: brightness(1.2);
     }
+
+    .btn-secondary-outlined:hover {
+    background-color: var(--text-dark);
+    color: var(--primary);
+}
+
+
 }
