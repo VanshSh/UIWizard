@@ -2,7 +2,7 @@
 
 /* Navigation */
 
-nav {
+ nav {
     background-color: var(--secondary);
     display: flex;
     justify-content: space-between;
@@ -25,19 +25,7 @@ nav a {
     padding: 0.5rem 2rem;
 }
 
-.nav--link-btn {
-    background-color: var(--primary);
-    color: var(--light);
-    margin: 0.5rem;
-    padding: 0.5rem 2rem;
-    margin: 0 2rem 0 0;
-    border-radius: 5px;
-}
 
-.nav--link-btn:hover {
-    background-color: var(--primary);
-    color: var(--accent);
-}
 
 /* Footer */
 footer {
@@ -112,12 +100,18 @@ footer {
     align-items: center;
 }
 
-.example-button{
+.example-button {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.example-navigation {
+    border: 2px solid var(--text-dark);
+    border-radius: 5px;
+    padding: 2rem;
 }
 
 /* Scrollbar */

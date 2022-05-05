@@ -1,0 +1,89 @@
+@import url(../component.css);
+
+/*  */
+.image-large,
+.image-overlay {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+/* Image container */
+.image-container {
+    position: relative;
+    filter: grayscale(85%);
+    width: 100%;
+}
+
+/* Image text */
+.image-text-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-weight: bold;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Image Text Top Left */
+.image-text-tl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-weight: bold;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Image Text Bottom Left */
+
+.image-text-bl {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    font-weight: bold;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Image Text Top Right*/
+
+.image-text-tr {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    font-weight: bold;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Image Text Bottom Right */
+.image-text-br {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    font-weight: bold;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    text-align: center;
+}

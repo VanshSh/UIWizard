@@ -1,0 +1,55 @@
+@import url(../component.css);
+
+/* Navigation bar */
+.navigation {
+    background-color: var(--secondary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Search */
+.navigation-input {
+    font-size: 3rem;
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem 2rem;
+}
+
+/* Navigation link */
+.navigation-ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    font-size: 3rem;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 1100px) {
+   
+    .navigation-ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .navigation-input {
+        font-size: 2rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .navigation-input-order {
+        order: 5;
+    }
+}
