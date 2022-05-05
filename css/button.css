@@ -150,4 +150,8 @@
         border: 2px solid var(--text-dark);
         color: var(--text-dark);
     }
+
+    .btn-float:hover {
+        filter: brightness(1);
+    }
 }
