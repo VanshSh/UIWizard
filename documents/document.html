@@ -394,7 +394,7 @@
                                     Are you sure you want to delete this item?
                                 </p>
                             </div>
-                            <div>
+                            <div class="modal-btn">
                                 <a href="" class="btn btn-delete-icon">
                                     <span class="material-icons"> delete </span>
                                     Delete
@@ -414,9 +414,40 @@
                 <div class="snippet">
                     <script src="https://gist.github.com/VanshSh/c0813e5607b24cb2b8bb09f56c879592.js"></script>
                 </div>
+                <hr class="divider" />
+            </section>
+            <!------------------ Slider ----------------->
+            <section>
+                <h1 class="text-center h1 text-dark">Slider</h1>
+                <p class="p2">
+                    Slider is used to select the values and price of the
+                    product. It is displayed using the range type of the input.
+                </p>
+                <h3 class="h3">Example of Slider</h3>
+                <div class="example">
+                    <div class="slider-container">
+                        <div class="slider-values">
+                            <span class="span-h1">10</span>
+                            <span class="span-h1">Value</span>
+                            <span class="span-h1">500</span>
+                        </div>
+                        <input
+                            type="range"
+                            min="10"
+                            max="500"
+                            value="15"
+                            class="slider"
+                        />
+                    </div>
+                </div>
+                <div class="snippet">
+                    <script src="https://gist.github.com/VanshSh/44992fc86c824d11f1e943be0d9da56c.js"></script>
+                </div>
+                <hr class="divider" />
             </section>
 
-            <!-- Other Things  -->
+            <!------------------ Other Things ----------------->
+
             <div id="errorMsg">
                 <div class="alert alert-error span-h1 not-found">
                     <span class="material-symbols-outlined"> dangerous </span>
@@ -430,7 +461,7 @@
                             Are you sure you want to delete this item?
                         </p>
                     </div>
-                    <div>
+                    <div class="modal-btn">
                         <a href="" class="btn btn-delete-icon">
                             <span class="material-icons"> delete </span>
                             Delete
