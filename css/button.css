@@ -12,7 +12,7 @@
 }
 
 .btn .material-icons {
-    vertical-align: text-bottom;
+    vertical-align: middle;
     font-size: 4rem;
     color: white;
 }
@@ -55,7 +55,6 @@
     color: var(--text-dark);
 }
 
-
 /* Button Accent Outlined */
 .btn-accent-outlined {
     border: 2px solid var(--accent);
@@ -81,7 +80,6 @@
     color: white;
 }
 
-
 /* Button  Float*/
 .btn-float {
     width: fit-content;
@@ -96,7 +94,6 @@
     font-size: 4.5rem;
     padding: 2rem;
 }
-
 
 /* Hove effects */
 @media (hover: hover) {
@@ -126,9 +123,7 @@
     }
 
     .btn-secondary-outlined:hover {
-    background-color: var(--text-dark);
-    color: var(--primary);
-}
-
-
+        background-color: var(--text-dark);
+        color: var(--primary);
+    }
 }
