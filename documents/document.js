@@ -49,10 +49,9 @@ const snackbar = document.querySelector('.snackbar')
 snackbarDemoBtn.addEventListener('click', showSnackBar)
 
 function showSnackBar() {
-    snackbar.style.display="block"
+    snackbar.style.display = 'block'
 
-    setTimeout(()=>{
-snackbar.style.display="none"
-    },1000)
-
+    setTimeout(() => {
+        snackbar.style.display = 'none'
+    }, 1500)
 }
