@@ -8,6 +8,30 @@ main {
     margin-top: 16rem;
 }
 
+/* Tables */
+table {
+    font-size: 2rem;
+    border-collapse: collapse;
+    width: 90%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: var(--text-light);
+}
+
+table,
+th,
+td {
+    border: 1px solid var(--primary);
+}
 /* Search bar */
 .input {
     width: 30%;

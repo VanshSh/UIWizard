@@ -18,7 +18,7 @@
 html {
     height: 100%;
     /* font-size: 61.5%; */
-    font-size: 60.5%;
+    font-size: 60%;
 }
 
 body {
@@ -38,14 +38,14 @@ body {
 
 @media only screen and (max-width: 830px) {
     html {
-        font-size: 43.5%;
+        font-size: 42.5%;
         /*7px*/
     }
 }
 
 @media only screen and (max-width: 550px) {
     html {
-        font-size: 37.5%;
+        font-size: 36.5%;
         /*6px*/
     }
 }
