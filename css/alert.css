@@ -9,7 +9,7 @@
 .alert {
     padding: 1rem 2rem;
     border-radius: 5px;
-    width: max-content;
+    width: fit-content;
     margin: 2rem;
     font-weight: bolder;
 }
