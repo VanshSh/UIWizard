@@ -9,9 +9,6 @@
     margin: 1rem;
 }
 
-/* Final Modal Styling */
-
-
 /* Modal */
 .modal {
     position: fixed;
@@ -27,7 +24,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     visibility: hidden;
     opacity: 0;
-    transition: visibility 0s, opacity 0.5s linear;
+    transition: visibility 0s, opacity 0s linear;
 }
 
 .modal-container {
@@ -41,10 +38,10 @@
     color: aliceblue;
 }
 
-.modal-btn{
+.modal-btn {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
