@@ -24,9 +24,8 @@
     background-color: rgba(0, 0, 0, 0.5);
     visibility: hidden;
     opacity: 0;
-    transition: visibility 0s, opacity 0s linear;
+    transition: visibility 0.1s, opacity 0s linear;
 }
-
 .modal-container {
     background-color: rgb(53, 49, 49);
     border-radius: 8px;
