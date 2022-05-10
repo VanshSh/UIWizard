@@ -38,7 +38,8 @@
 /* Disabled button */
 .btn-disabled {
     cursor: not-allowed;
-    background-color: rgb(211, 201, 201);
+    background-color: rgb(95, 95, 95);
+    color: black;
 }
 
 /* Button Primary Outlined */
@@ -62,10 +63,9 @@
 }
 
 /* Button Primary Icon */
-.btn-primary-icon {
+.btn-cart-icon {
     background-color: var(--primary);
     color: var(--text-light);
-    padding: 1rem;
 }
 
 /* Button Delete Icon */
@@ -105,12 +105,6 @@
     .btn-accent-outlined:hover {
         background-color: var(--accent);
         color: var(--primary);
-    }
-
-    .btn-disabled:hover {
-        background-color: rgb(211, 201, 210);
-        box-shadow: none;
-        filter: brightness(1);
     }
 
     .btn-primary-outlined:hover {

@@ -68,7 +68,7 @@ td {
 .blob-code,
 .blob-num {
     font-family: monospace !important;
-    font-size: 10px !important;
+    font-size: 12px !important;
     font-weight: 600 !important;
 }
 .gist-meta {
