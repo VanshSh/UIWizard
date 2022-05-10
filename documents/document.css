@@ -68,17 +68,19 @@ td {
 .blob-code,
 .blob-num {
     font-family: monospace !important;
-    font-size: 13px !important;
-    font-weight: bold !important;
+    font-size: 10px !important;
+    font-weight: 600 !important;
 }
 .gist-meta {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 13px !important;
+    font-size: 10px !important;
 }
 .gist-meta a {
     color: var(--primary) !important;
     text-decoration: none;
 }
-.gist-meta a:hover {
-    color: var(--accent) !important;
+
+@media (hover: hover) {
+    .gist-meta a:hover {
+        color: var(--accent) !important;
+    }
 }
