@@ -84,6 +84,6 @@ While building this project I learnt various things such as:
 
 ## 🔗 Contact
 
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](http://vanshsharma.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/My%20Portfolio-FF6C37?style=for-the-badge&&logoColor=white)](http://vanshsharma.vercel.app/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vanshsharma27/)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Vanshsh2701)
