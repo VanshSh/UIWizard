@@ -4,13 +4,13 @@
 
 
 
-# 💁 UIWizard  ( [LIVE DEMO](https://uiwizard.netlify.app/) )
+# 📃 UIWizard  ( [LIVE DEMO](https://uiwizard.netlify.app/) )
 
 </div>
 UIWizard is Smaller, Faster and Easier to Use component library built using
-the _HTML_, _CSS_ and little bit _JavaScript_.
+the HTML , CSS and little bit JavaScript.
 
-
+##
 [![GitHub issues](https://img.shields.io/github/issues/VanshSh/UIWizard?style=for-the-badge)](https://github.com/VanshSh/UIWizard/issues) 
 [![GitHub forks](https://img.shields.io/github/forks/VanshSh/UIWizard?style=for-the-badge)](https://github.com/VanshSh/UIWizard/network)
 [![GitHub stars](https://img.shields.io/github/stars/VanshSh/UIWizard?color=yellow&style=for-the-badge)](https://github.com/VanshSh/UIWizard/stargazers)
@@ -48,19 +48,6 @@ to the `<Head></Head>` tag og your HTML file.
 
 **Other Resources:** ![Google](https://img.shields.io/badge/Google%20Font-4285F4?style=for-the-badge&logo=google&logoColor=white)  ![Google](https://img.shields.io/badge/Google%20Icons-4285F4?style=for-the-badge&logo=google&logoColor=white) 
 
-## 📖 Lessons Learnt:
-
-While building this project I learnt various things such as:
-- CSS selectors
-- Media hover query
-- Styling the GitHub gist
-
-## 📷 Screenshots
-
-![Image](./images/Demo1.png)
-![Image](./images/Demo2.png)
-
-
 ## 🎨 Color Reference
 
 | Color             | Hex                                                                |
@@ -79,6 +66,21 @@ While building this project I learnt various things such as:
 |  --warning-dark | ![#e99d04](https://via.placeholder.com/10/e99d04?text=+) #e99d04|
 
 
+## 📖 Lessons Learnt:
+
+While building this project I learnt various things such as:
+- CSS selectors
+- Media hover query
+- Styling the GitHub gist
+
+## 📷 Screenshots
+
+![Image](./images/Demo1.png)
+![Image](./images/Demo2.png)
+
+## ⏲️ Roadmap
+- Add more components
+- Add Dark/Light theme for Website
 
 ## 🔗 Contact
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](http://vanshsharma.vercel.app/)
