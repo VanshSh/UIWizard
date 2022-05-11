@@ -5,7 +5,6 @@
 
 
 # 📃 UIWizard  ( [LIVE DEMO](https://uiwizard.netlify.app/) )
-
 </div>
 UIWizard is Smaller, Faster and Easier to Use component library built using
 the HTML , CSS and little bit JavaScript.
@@ -14,6 +13,8 @@ the HTML , CSS and little bit JavaScript.
 [![GitHub issues](https://img.shields.io/github/issues/VanshSh/UIWizard?style=for-the-badge)](https://github.com/VanshSh/UIWizard/issues) 
 [![GitHub forks](https://img.shields.io/github/forks/VanshSh/UIWizard?style=for-the-badge)](https://github.com/VanshSh/UIWizard/network)
 [![GitHub stars](https://img.shields.io/github/stars/VanshSh/UIWizard?color=yellow&style=for-the-badge)](https://github.com/VanshSh/UIWizard/stargazers)
+[![PayPal](https://img.shields.io/badge/Support%20PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/vanshsharma27)
+
 
 ## 📥 Installation
 
