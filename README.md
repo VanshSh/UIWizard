@@ -74,8 +74,8 @@ While building this project I learnt various things such as:
 
 ## 📷 Screenshots
 
-<img width="650"  src="./images/Demo1.png"/>
-<img width="650"   src="./images/Demo2.png"/>
+<img  src="./images/Demo1.png"/>
+<img   src="./images/Demo2.png"/>
 
 ## ⏲️ Roadmap
 
