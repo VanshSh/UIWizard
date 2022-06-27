@@ -47,7 +47,9 @@ to the `<Head></Head>` tag og your HTML file.
 
 **Other Resources:** ![Google](https://img.shields.io/badge/Google%20Font-4285F4?style=for-the-badge&logo=google&logoColor=white) ![Google](https://img.shields.io/badge/Google%20Icons-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
+<!-- 
 ## 🎨 Color Reference
+
 
 | Color          | Hex                                                               |
 | -------------- | ----------------------------------------------------------------- |
@@ -62,7 +64,7 @@ to the `<Head></Head>` tag og your HTML file.
 | --success      | ![#4e9a51](https://via.placeholder.com/10/4e9a51?text=+) #4e9a51  |
 | --success-dark | ![#3b7d2e](https://via.placeholder.com/10/3b7d2e?text=+) #3b7d2e  |
 | --warning      | ![#d4a13a](https://via.placeholder.com/10/d4a13a?text=+) #d4a13a  |
-| --warning-dark | ![#e99d04](https://via.placeholder.com/10/e99d04?text=+) #e99d04  |
+| --warning-dark | ![#e99d04](https://via.placeholder.com/10/e99d04?text=+) #e99d04  | -->
 
 ## 📖 Lessons Learnt:
 
